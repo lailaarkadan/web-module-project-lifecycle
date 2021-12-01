@@ -5,7 +5,7 @@ class User extends React.Component {
 
     render() {
         return(
-            <div id="usercard">
+            <div>
               
                     <img src={this.props.user.avatar_url} alt="avatar" />
                 

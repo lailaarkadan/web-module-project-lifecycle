@@ -70,7 +70,7 @@ class App extends React.Component {
         return(<div>
             <h1> Github Info</h1>
             <form  onSubmit={this.handleSubmit}>
-                <input value={this.state.input} type="text" name="searchText" onChange={this.handleChange}/>
+                <input value={this.state.input} type="text" name="text" onChange={this.handleChange}/>
                 <button>search</button>
             </form>
             <User user={this.state.user} followers={this.state.followers}/>
