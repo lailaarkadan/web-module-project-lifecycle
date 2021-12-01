@@ -1,6 +1,7 @@
 
 import React from 'react';
 import User from "./components/User";
+
 import axios from "axios";
 
 
@@ -73,7 +74,7 @@ class App extends React.Component {
                 <button>search</button>
             </form>
             <User user={this.state.user} followers={this.state.followers}/>
-           
+       
         </div>);
     }
 }
